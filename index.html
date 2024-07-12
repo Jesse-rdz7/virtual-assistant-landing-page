@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+    <title>Simple Desk</title>
+</head>
+
+<body>
+
+    <!--Simple Desk Image-->
+    <section class="py-4">
+        <div class="container-fluid text-center">
+            <img src="https://simple-desk.netlify.app/images/logo.png" alt="simple-desk">
+        </div>
+    </section>
+
+    <!--Main Image-->
+    <section id="showcase" class="d-flex justify-content-center align-items-center">
+        <div id="overlay"></div>
+        <div id="header" class="container text-white text-center">
+            <h1 class="display-3">You're busy. I'm not. Let's switch that around.</h1>
+            <h5 class="my-4">Julia Thompson | Virtual Assistant</h5>
+            <p class="lead d-none d-md-block mb-5">Delegate your workload and 10X your productivity with a virtual
+                assistant today! Get experienced professional help with a range of skills to make your job - and life-
+                10X easier.</p>
+            <button id="book" class="btn btn-lg btn-info py-3 px-5" data-toggle="modal" data-target="#bookingModal">Book
+                Consultation</button>
+            <h6 class="text-muted font-italic mt-5">Let's talk - no commitment</h6>
+        </div>
+    </section>
+    <!--Smiling girl Section-->
+    <section id="pitch" class="my-5">
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-xl-5">
+                    <img class="img-fluid" src="https://simple-desk.netlify.app/images/portrait1.png" alt="VA-Portrait">
+                </div>
+                <div class="col-xl-7 text-left pl-4">
+                    <h1 class="display-4 font-weight-bold my-3">Being busy is a good thing.</h1>
+                    <h2 class="font-weight-light">But it doesn't come without a huge serving of stress and anxiety. Not
+                        to mention a complete lack of time to get things done.</h2>
+                    <p class="mt-3 font-weight-light">That's where i come in. Having spent my career as a professional
+                        assistant, I've helped everyone from C-level enterprise execs to startup entrepreneurs clear
+                        their to-do lists and make more time for things that matter.</p>
+                    <button id="book" class="btn btn-sm btn-info py-2 px-4" data-toggle="modal"
+                        data-target="#bookingModal">Book Consultation</button>
+                    <h6 class="text-muted font-italic mt-4 font-weight-light">Let's talk - no commitment</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Help Section-->
+    <section id="help">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6">
+                    <h1 class="display-4 font-weight-bold my-3">Help me, help you.</h1>
+                    <h2 class="font-weight-light">I do more than send emails and make travel arrangements -but i do
+                        those, too.</h2>
+                    <p class="mt-3 font-weight-light">Need to make that presentation pop? Come up with a great social
+                        media campaign? Find a last-minute gift? Big or small, I've done it all. Here are just some
+                        tasks and skills I can handle for you!</p>
+                    <p class="mt-3 font-weight-light">Need help with something that's not on the list? Just ask. I can
+                        probably do it too.</p>
+                </div>
+                <div class="col-xl-6 d-flex align-items-center">
+                    <div class="row bullets d-none d-xl-flex">
+                        <div class="col-xl-6 d-none d-xl-inline-block">
+                            <ul>
+                                <li>Content Creation</li>
+                                <li>Report preparation</li>
+                                <li>Reception duties</li>
+                                <li>Social media managment</li>
+                                <li>IT/help desk support</li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-6 d-none d-xl-inline">
+                            <ul>
+                                <li>Proofreading</li>
+                                <li>Calendar managment</li>
+                                <li>Email screening</li>
+                                <li>Translations</li>
+                                <li>Event planning</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button id="book" class="btn btn-sm btn-info py-2 px4" data-toggle="modal"
+                        data-target="#bookingModal">
+                        Book Consultation
+                    </button>
+                    <h6 class="text-muted font-italic mt-4 font-weight-light">Let's talk - no commitment</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Dark background & quotes-->
+    <section class="quotes bg-dark">
+        <div class="container text-center mt-4">
+            <i id="quoteLeft" class="fas fa-quote-left text-info my-3">
+
+            </i>
+            <blockquote class="blockquote">
+                <p>"Very happy with Julia's service. Since working with her, I feel like I get my life back."</p>
+                <footer class="blockquote-footer">
+
+                    "Megan Barnett, CEO at Lyly Boutique"
+                </footer>
+                <i id="quoteRight" class="fas fa-quote-right text-info my-3">
+
+                </i>
+            </blockquote>
+        </div>
+    </section>
+
+    <!--Why Go Virtual-->
+    <section id="virtual" class="my-5">
+        <div class="container py-3 text-center">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="display-4 font-weight-bold my-3">Why go virtual?</h1>
+                    <h2 class="font-weight-light mb-4">A fair question. After all, when you need extra help, hiring
+                        someone to work in-person means they're always easy to reach and responsive.</h2>
+                    <div class="row">
+                        <div class="col-md-4 my-2 p-3 icon-card">
+                            <i class="fas fa-check">
+
+                            </i>
+                            <p class="lead">
+                                First, I have my own technology covered, so you pay nothing on the hardware or software
+                                front.
+                            </p>
+                        </div>
+                        <div class="col-md-4 my-2 p-3 icon-card">
+                            <i class="fas fa-dollar-sign">
+
+                            </i>
+                            <p class="lead">
+                                Second, I have my own private office, so not only does that eliminate a sizable expense,
+                                it ensures I'm undistracted and always available.
+                            </p>
+                        </div>
+                        <div class="col-md-4 my-2 p-3 icon-card">
+                            <i class="fas fa-rocket">
+
+                            </i>
+                            <p class="lead">
+                                But most importantly, you only pay by the quarter-hour. And that means you're going to
+                                save big on downtime.
+                            </p>
+                        </div>
+
+                    </div>
+                    <button id="book" class="btn btn-sm btn-info mt-5 py-2 px-4" data-toggle="modal" data-target="#bookingModal">
+                        Book Consultation
+                    </button>
+                    <h6 class="text-muted font-italic mt-4 font-weight-light">
+                        Let's talk - no commitment
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Satisfaction Section-->
+    <section id="lastPitch" class="mt-5 py-5">
+        <div class="container py-3 text-center">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="display-4 font-weight-bold my-3">100% --Satisfaction Guarantee!</h1>
+                    <h2 class="font-weight-light">
+                        My promise is to make you wonder what you ever did without me. If you're not completely satisfied with the assistance I provide within the first 5 tasks, you get your money back—no questions asked.
+                    </h2>
+                    <button id="book" class="btn btn-sm btn-white mt-3 py-3 px-5" data-toggle="modal" data-target="#bookingModal">
+                        Book Consultation
+                    </button>
+                    <h6 class="font-italic mt-4 font-weight-light">
+                        Let's talk - no commitment
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Newsletter Section-->
+    <section id="newsletter" class="bg-dark">
+        <div class="container text-white text-center py-5">
+            <p class="lead">JOIN OUR NEWSLETTER FOR DEALS AND MORE</p>
+            <div class="row justify-content-center">
+                <div class="col-10 col-sm-8 col-md-6 col-lg-4">
+                    <form action class="form-inline">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Your Email">
+                            <div class="input-group-append">
+                                <button class="btn btn-info">Join Now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer Section-->
+    <section id="footer" class="p-3 bg-secondary">
+        <div class="row">
+            <div class="col-lg-7 d-flex justify-content-center mt-3">
+                ©2021 JesseRdz. All rights reserved. Privacy Policy | Created with Jesse Rodriguez
+            </div>
+            <div class="col-lg-5 d-flex justify-content-center my-3">
+                <i class="fab fa-facebook-f">
+
+                </i>
+                <i class="fab fa-linkedin-in">
+
+                </i>
+                <i class="fab fa-twitter">
+
+                </i>
+                <i class="fab fa-instagram">
+
+                </i>
+            </div>
+        </div>
+    </section>
+    <div class="modal" id="bookingModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title">Let's get together</h1>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                        <span aria-hidden="true">x</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Send me a bit of information and I'll be in touch to schedule your free consultation.</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="firstName">First Name</label>
+                            <input type="firstName" class="form-control" namdeid="firstName" placeholder="First Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="Email">Email Address</label>
+                            <input type="email" class="form-control" nameid="email" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="requests">comments</label>
+                            <textarea  id="comments"  rows="3" class="form-control" placeholder="Comment"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-info">Submit Request</button>
+                    <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--javascript code-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
